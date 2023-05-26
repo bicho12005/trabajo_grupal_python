@@ -1,54 +1,54 @@
 <!DOCTYPE html>
-<html><HEad>
-    <MEta name="utf-8"/>
-    <TItle>HOGAR DE HUELLAS </TItle>
-    <METa NAME="DESCRIPCION" content="ES UN REFUGIO DE ANIMALES
-    PUEDEN ADOPTAR SON TODOS RESCATADOS"/>
-    <METa name="AUTHOR" content="GRUPO 3"/>
-        <META name="KEYWORDS" content="REFUFIO, REFUGIO DE ANIMALES, ADOPTAR;
-        ADOPTAR ANIMALES"/>
-        <link rel="stylesheet" href="style.css">
-
-</HEad>
-<header>
-    <div class="logo"><img src="logo 1.PNG" alt="logo del refugio">
-        <h2 class="nombre del refugio">HOGAR DE HUELLAS</h2></div>
-  
-    <nav class="nav">
-        <a href="inicio.html">INICIO</a>
-        <a href="galeria.html">GALERIA</a>
-        <a href="Servicios.html">SERVICIOS</a>
-        <a href="contacto.html">CONTACTO</a>
-    </nav>
-</header>
-<div class="manolo">
-    <body>
-        <div class="ful-img" id="fulImgBox">
-            <img src="caballo1.jpg" id="fulImg" alt="">
-            <span onclick="closeImg()">X</span>
-        </div>
+<html>
+    <head>
+        <meta name="utf-8"/>
+        <title>HOGAR DE HUELLAS </TItle>
+        <meta NAME="DESCRIPCION" content="ES UN REFUGIO DE ANIMALES
+        PUEDEN ADOPTAR SON TODOS RESCATADOS"/>
+        <meta name="AUTHOR" content="GRUPO 3"/>
+        <meta name="KEYWORDS" content="REFUFIO, REFUGIO DE ANIMALES, ADOPTAR;
+            ADOPTAR ANIMALES"/>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="https://kit.fontawesome.com/4e16c83e79.js" crossorigin="anonymous"></script>
+    </head>
     
-            
-        <h1><span>NUESTRA GALERIA</span></h1>
-        <div class="img-gallery">
-            <img src="caballo1.jpg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
-            <img src="caballo2.jpeg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
-            <img src="caballo3.jpeg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
-            <img src="PERRO NEGRO ENCERRADO MIRANDO AFUERA.jpg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
-            <img src="PERRO NEGRO ENCERRADO.jpg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
-            <img src="PERRO MORDIENDO RUEDA.jpg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
-            <img src="PERROS ENCERRADOS.jpg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
-            <img src="GATO.jpg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
-        </div>
-</div>
-
-
-    <script src="script.js"></script>
-</body>
-<footer class="footer">
-    Seguinos en 
-            <a href="http://www.facebook.com" class="fa-brands fa-facebook" target="_blank"><img src="facebooklogo.svg" width="100" height="100" alt=""></a>
-            <a href="http://www.instagram.com" class="fa-brands fa-instagram" target="_blank"><img src="instagram.jpg" width="100" height="100" alt=""></a>
-            <a href="http://www.twitter.com" class="fa-brands fa-twitter" target="_blank"><img src="logott.jpg" width="100" height="100" alt=""></a>
-            
+    <div class="manolo">
+        <body>
+            <header class="header">
+                <div class="logo">
+                    <img src="assets/images/logo 1_2.PNG" alt="">
+                </div>
+                <nav class="nav">
+                    <a href="index.html">INICIO</a>
+                    <a href="">GALERIA</a>
+                    <a href="Servicios.html">SERVICIOS</a>
+                    <a href="contacto.html">CONTACTO</a>
+                </nav>
+            </header>
+            <div class="ful-img centrado" id="fulImgBox">
+                <img src="assets/images/caballo1_1.jpg" id="fulImg" alt="">
+                <!-- <span onclick="closeImg()">X</span> -->
+            </div>
+            <br>
+            <h1 class="centrado"><span>NUESTRA GALERIA</span></h1>
+            <br>
+            <div class="img-gallery centrado">
+                <img src="assets/images/caballo1.jpg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
+                <img src="assets/images/caballo2.jpeg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
+                <img src="assets/images/caballo3.jpeg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
+                <img src="assets/images/PERRO NEGRO ENCERRADO MIRANDO AFUERA.jpg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
+                <img src="assets/images/PERRO NEGRO ENCERRADO.jpg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
+                <img src="assets/images/PERRO MORDIENDO RUEDA.jpg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
+                <img src="assets/images/PERRO MARRON CORRIENDO.jpg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
+                <img src="assets/images/GATO.jpg" width="270" height="270" onclick="openFulImg(this.src)" alt="">
+            </div>
+            <footer class="footer">
+                <p> Seguinos en </p>
+                <a href="http://www.facebook.com" class="fa-brands fa-facebook" style="color: #744ce1;"></a>
+                <a href="http://www.instagram.com" class="fa-brands fa-instagram" style="color: #e64191;"></a>
+                <a href="http://www.twitter.com" class="fa-brands fa-twitter" style="color: #5ea9c9;"></a>
+            </footer>
+            <script src="script.js"></script>
+        </body>
+    </div>
 </html>
