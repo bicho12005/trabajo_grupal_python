@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital@1&family=Cormorant+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -45,19 +47,23 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: 'Averia Libre', cursive;
+    font-family: 'Montserrat', sans-serif ;
 }
 .row .titulo{
-    padding: 5%;
+    padding: 1%;
     background-color: #64c27b;
 }
 .row .titulo h1{
+    font-size: 60px ;
     color: blue;   
     text-align: center;
 }
 .row .titulo p{
-    text-align: justify;
-    
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 20px ;
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 3%;
 }
 
 
@@ -119,4 +125,19 @@ h1, p{
 }
 h3{
     padding: 2% 1%;
+}
+/*esto es solo para la pagina servicios*/
+
+.adop1{
+    font-size: 30px;
+    background-image:"./css/images/animales.jpg";
+}
+#adop{
+    display: none;
+}
+#guar{
+    display: none;
+}
+#vet{
+    display: none;
 }
