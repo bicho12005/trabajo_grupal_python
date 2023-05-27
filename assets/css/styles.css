@@ -128,16 +128,41 @@ h3{
 }
 /*esto es solo para la pagina servicios*/
 
-.adop1{
-    font-size: 30px;
-    background-image:"./css/images/animales.jpg";
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box .adop1, .guar1, .vet1{
+    padding: 5%;
+    font-size: 20px;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #adop{
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
     display: none;
+    padding-bottom: 2%;
 }
 #guar{
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
     display: none;
+    padding-bottom: 2%;
 }
 #vet{
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
     display: none;
+    padding-bottom: 2%;
 }
