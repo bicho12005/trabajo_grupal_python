@@ -3,13 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital@1&family=Cormorant+Garamond:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+    font-family: sans-serif;
 }
-.header{
+
+.header {
     background-color:#2a8c4a;
     padding: 2%;
     margin: .1%;
@@ -17,48 +18,55 @@
     justify-content: space-between;
     align-items: center;
 }
-.header .logo{
+
+.header .logo {
     margin-left: 2%;
     color: black;
     font-size: 30px;
 }
 
-.header .nav{
+.header .nav {
     margin-right: 2%;
 }
-.header .nav a{
+
+.header .nav a {
     text-decoration: none;
     font-size: 20px;
     padding: 0 20px;
     color:white;
 }
-.row{
+
+.row {
     display: flexbox;
     flex-wrap: wrap;
 }
-.row .article{
 
+.row .article {
     background-color: #9bfab0;
     margin: .1%;
     flex: 70%;
 }
-.row .article .section{
+
+.row .article .section {
     padding: 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
     font-family: 'Montserrat', sans-serif ;
 }
-.row .titulo{
+
+.row .titulo {
     padding: 1%;
     background-color: #64c27b;
 }
-.row .titulo h1{
+
+.row .titulo h1 {
     font-size: 60px ;
     color: blue;   
     text-align: center;
 }
-.row .titulo p{
+
+.row .titulo p {
     font-family: 'Montserrat', sans-serif ;
     font-size: 20px ;
     text-align: center;
@@ -66,19 +74,21 @@
     padding-bottom: 3%;
 }
 
-
-.row .article .section .img img{
+.row .article .section .img img {
     width: 100%;
 }
-.row .article .img-datos{ 
+
+.row .article .img-datos {
     padding: 50px;
 }
+
 .row .article .img-datos h2,
-.row .article .img-datos p{
+.row .article .img-datos p {
     padding: 10px 0 ;
     text-align: justify;
 }
-.row .aside{
+
+.row .aside {
     background-color: rgb(110, 209, 110);
     flex-direction: column;
     display: flex;
@@ -87,33 +97,51 @@
     margin: .1%;
 }
 
-.footer{
+.footer {
     background-color:#9bfab0;
     padding: 5%;
     margin: .1%;
     display: flex;
     font-size: 30px;
-    
     justify-content: space-around;
     align-items: center;
 }
-.footer a{
+
+.footer a {
     text-decoration: none;
 }
 
-.centrado{
+.footerserv {
+    background-color:#9bfab0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerserv a {
+    text-decoration: none;
+}
+
+.centrado {
     text-align: center;
 }
 
-body{
+body {
     background-color: beige;
 }
-h1, p{
+
+h1, p {
     text-align: center;
     padding: 1%;
     font-weight: bold;
 }
-.fondomapa{
+
+.fondomapa {
     display:flexbox;
     text-align: center;
     background-color: cornsilk;
@@ -123,26 +151,32 @@ h1, p{
     height: 50%;
     padding: 1% 1%;
 }
-h3{
+
+h3 {
     padding: 2% 1%;
 }
+
 /*esto es solo para la pagina servicios*/
 
-.box{
+.box {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.box .adop1, .guar1, .vet1{
-    padding: 5%;
+
+.box .adop1, .guar1, .vet1 {
+    padding: 1% 8%;
     font-size: 20px;
 }
-.box2{
+
+.box2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0%;
 }
-#adop{
+
+#adop {
     align-items: center;
     justify-content: center;
     width: 500px;
@@ -150,7 +184,8 @@ h3{
     display: none;
     padding-bottom: 2%;
 }
-#guar{
+
+#guar {
     align-items: center;
     justify-content: center;
     width: 500px;
@@ -158,7 +193,8 @@ h3{
     display: none;
     padding-bottom: 2%;
 }
-#vet{
+
+#vet {
     align-items: center;
     justify-content: center;
     width: 500px;

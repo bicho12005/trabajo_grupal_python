@@ -12,6 +12,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <!--linkea a la hoja de estilos-->
         <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="https://kit.fontawesome.com/4e16c83e79.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -30,39 +31,39 @@
             <h1 class="display-4"><b>¡Contactanos!</b></h1>
             <p>Si tienes información sobre algún animal en situación de abandono o de peligro y quieres contactarte con nosotros o quieres algún consejo deja tus datos para que te llamemos</p>
             <div class="container" id="form">
-                <form class="row g-3" action="https://formsubmit.co/a7b2f40d8d375fdde3c84fb7f7e0ef3b" method="POST" >
+                <form class="row g-3" action="https://" method="POST">
                     <div class="col-md-6">
                         <label for="Nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="Nombre" placeholder="Ingrese su nombre" required>
+                        <input type="text" class="form-control" id="Nombre" name="nombre" placeholder="Ingrese su nombre" required>
                     </div>
                     <div class="col-md-6">
                         <label for="Apellido" class="form-label">Apellido</label>
-                        <input type="text" class="form-control" id="Apellido" placeholder="Ingrese su apellido" required>
+                        <input type="text" class="form-control" id="Apellido" name="apellido" placeholder="Ingrese su apellido" required>
                     </div>
                     <div class="col-12">
                         <label for="Email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="Email" placeholder="Ingrese su email" required>
+                        <input type="email" class="form-control" id="Email" name="email" placeholder="Ingrese su email" required>
                     </div>
                     <div class="col-12">
                         <label for="Telefono" class="form-label">Telefono</label>
-                        <input type="number" class="form-control" id="Telefono" placeholder="Ingrese su numero">
+                        <input type="number" class="form-control" id="Telefono" name="telefono" placeholder="Ingrese su numero">
                     </div>
                     <div class="col-12">
                         <label for="Localidad" class="form-label">Localidad</label>
-                        <input type="text" class="form-control" id="Localidad" placeholder="Ingrese su localidad">
+                        <input type="text" class="form-control" id="Localidad" name="localidad" placeholder="Ingrese su localidad">
                     </div>
                     <div class="col-12">
                         <label for="Asunto" class="form-label">Asunto</label>
-                        <input type="text" class="form-control" id="Asunto" placeholder="Ingrese un asunto">
+                        <input type="text" class="form-control" id="Asunto" name="asunto" placeholder="Ingrese un asunto">
                     </div>
                     <div class="mb-3">
                         <label for="Descripcion" class="form-label">Descripcion</label>
-                        <textarea class="form-control" id="Descripcion" rows="5" placeholder="Ingrese una descripcion"></textarea>
+                        <textarea class="form-control" id="Descripcion" rows="5" name="descripcion" placeholder="Ingrese una descripcion"></textarea>
                     </div>
                     <div class="col-12 text-center enviar">
-                        <!-- <input type="submit" class="btn btn-primary" name="enviar" value="Enviar"> -->
                         <input type="hidden" name="_next" value="http://127.0.0.1:3000/formulario.html">
                         <button type="submit" class="btn btn-primary">Enviar</button>
+                        <!-- <input type="submit" value="enviar"> -->
                     </div>
                 </form>
             </div>
@@ -73,11 +74,12 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.7333122382171!2d-58.424988001355885!3d-34.63112709999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbac94426a09%3A0xa239179528c67a89!2sPav%C3%B3n%204271%2C%20C1253ABA%20CABA!5e0!3m2!1ses!2sar!4v1684177283337!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        <footer>
-
+        <footer class="footer">
+            <p> Seguinos en </p>
+            <a href="http://www.facebook.com" class="fa-brands fa-facebook" style="color: #744ce1;"></a>
+            <a href="http://www.instagram.com" class="fa-brands fa-instagram" style="color: #e64191;"></a>
+            <a href="http://www.twitter.com" class="fa-brands fa-twitter" style="color: #5ea9c9;"></a>
         </footer>
-        <!-- <h3>Videos destacados de otros refugios:</h3>
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/bcFfZhsCibs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     </body>
 </html>
